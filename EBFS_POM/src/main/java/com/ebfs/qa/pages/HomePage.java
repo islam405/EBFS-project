@@ -20,7 +20,7 @@ public class HomePage extends TestBase {
 	WebElement signInBtn;
 	
 
-	// Initializing the Page Objects:for this page
+	// Initializing the Page Objects:
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
