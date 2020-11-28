@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EBFS Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.TestListener" />
+	</listeners>
+
+	<test name="EBFS App Test Cases" enabled = "false">
+		<classes>			
+			<class name="com.ebfs.qa.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+	<test name="User Account Test" enabled = "true">
+		<classes>			
+			<class name="com.ebfs.qa.testcases.UserAccountTest"></class>
+		</classes>
+	</test>
+</suite>
